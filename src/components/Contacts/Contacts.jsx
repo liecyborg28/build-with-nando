@@ -1,4 +1,9 @@
-import { IconAt, IconPhoneCall, IconBrandInstagram } from "@tabler/icons-react";
+import {
+  IconAt,
+  IconPhoneCall,
+  IconBrandInstagram,
+  IconBrandLinkedin,
+} from "@tabler/icons-react";
 import { Avatar, Group, Text } from "@mantine/core";
 import classes from "./Contacts.module.css";
 
@@ -15,6 +20,10 @@ function UserInfoIcons() {
     {
       view: "lie_cyborg",
       link: "https://instagram.com/lie_cyborg",
+    },
+    {
+      view: "Fernando Lie",
+      link: "https://www.linkedin.com/in/fernando-lie-08936b234",
     },
   ];
 
@@ -64,6 +73,21 @@ function UserInfoIcons() {
               fz="xs"
               c="dimmed">
               {contacts[2].view}
+            </Text>
+          </Group>
+
+          <Group wrap="nowrap" gap={10} mt={5}>
+            <IconBrandLinkedin
+              stroke={1.5}
+              size={16}
+              className={classes.icon}
+            />
+            <Text
+              className={classes.contact}
+              onClick={() => handleClick(contacts[3].link)}
+              fz="xs"
+              c="dimmed">
+              {contacts[3].view}
             </Text>
           </Group>
         </div>
