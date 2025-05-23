@@ -1,0 +1,56 @@
+.header {
+    /* Override default theme color */
+    border-bottom: 1px solid var(--mantine-color-gray-3);
+    width: 100%;
+    position: fixed;
+    /* background-color: var(--mantine-color-body); */
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+}
+
+.inner {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    display: block;
+    line-height: 1;
+    padding: 8px 12px;
+    border-radius: var(--mantine-radius-sm);
+    text-decoration: none;
+    color: var(--mantine-color-gray-7);
+    font-size: var(--mantine-font-size-sm);
+    font-weight: 500;
+}
+
+.link:hover {
+    background-color: var(--mantine-color-gray-0);
+}
+
+/* Aktif saat dark mode */
+[data-mantine-color-scheme="dark"] .link {
+    color: var(--mantine-color-dark-0);
+}
+
+[data-mantine-color-scheme="dark"] .link:hover {
+    background-color: var(--mantine-color-dark-6);
+}
+
+/* Link aktif */
+.link[data-active] {
+    background-color: var(--mantine-color-blue-filled);
+    color: var(--mantine-color-white);
+}
+
+.avatarContainer {
+    display: flex;
+    align-items: center;
+}
+
+.avatarContainer>b {
+    margin-left: 8px;
+    color: var(--mantine-color-gray-7);
+}

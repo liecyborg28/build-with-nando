@@ -1,0 +1,39 @@
+.icon {
+    /* color: light-dark(var(--mantine-color-gray-5), var(--mantine-color-dark-3)); */
+    color: var(--mantine-color-dark-4) !important;
+}
+
+.name {
+    font-family: Outfit, var(--mantine-font-family);
+}
+
+.contacts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: whitesmoke;
+    /* background-image: url(https://images.unsplash.com/photo-1626148750586-df6e1b0bebf2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-image: url(https://images.unsplash.com/photo-1528260249572-a56fc30084ef?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+.contactsContainer {
+    width: calc(100vw - calc(16px * 3));
+    max-width: calc(960px - 16px);
+    padding-top: calc(56px + 16px);
+    padding-bottom: calc(56px / 2);
+    display: flex;
+    justify-content: right;
+}
+
+.contact {
+    color: var(--mantine-color-dark-4) !important;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1px 2px;
+    border-radius: 2px;
+}
+
+.contact:hover {
+    text-decoration: underline;
+}

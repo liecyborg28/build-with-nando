@@ -1,0 +1,35 @@
+:root {
+    --mantine-color-body: #fff;
+    --mantine-color-gray-3: #dee2e6;
+    --mantine-color-dark-4: #2c2e33;
+    --mantine-color-gray-7: #495057;
+    --mantine-color-dark-0: #f1f3f5;
+    --mantine-color-gray-0: #f8f9fa;
+    --mantine-color-dark-6: #25262b;
+    --mantine-color-blue-filled: #228be6;
+    --mantine-color-white: #ffffff;
+    --mantine-radius-sm: 4px;
+    --mantine-font-size-sm: 14px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.spin {
+    cursor: pointer;
+}
+
+.spin:hover {
+    animation: spin 1s steps(30);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}

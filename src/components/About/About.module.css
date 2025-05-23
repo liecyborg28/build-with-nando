@@ -1,0 +1,37 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: calc(56px / 2);
+    background-image: url(https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutAvatar {
+    margin: calc(56px * 2) auto calc(56px / 2);
+}
+
+.aboutTitle {
+    color: var(--mantine-color-white);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.aboutDesc {
+    width: calc(100vw - calc(16px * 3));
+    max-width: calc(960px - 16px);
+    text-align: center;
+    color: var(--mantine-color-white);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+}
