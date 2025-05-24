@@ -1,5 +1,12 @@
 import { useState } from "react";
-import { Burger, Container, Group, Avatar } from "@mantine/core";
+import {
+  Burger,
+  Container,
+  Group,
+  Avatar,
+  Drawer,
+  Button,
+} from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import classes from "./HeaderSimple.module.css";
 
@@ -23,6 +30,10 @@ export function HeaderSimple() {
   const [opened, { toggle }] = useDisclosure(false);
   const [active, setActive] = useState(links[0].link);
 
+  function handleBurgerClick() {
+    toggle();
+  }
+
   const items = links.map((link) => (
     <a
       key={link.label}
@@ -32,21 +43,32 @@ export function HeaderSimple() {
       onClick={(event) => {
         // event.preventDefault();
         setActive(link.link);
+        toggle();
       }}>
       {link.label}
     </a>
   ));
 
   return (
-    <header className={classes.header}>
-      <Container size="md" className={classes.inner}>
-        <AvatarLogo />
-        <Group gap={5} visibleFrom="xs">
-          {items}
-        </Group>
+    <>
+      <Drawer position="right" opened={opened} onClose={close}>
+        {items}
+      </Drawer>
+      <header className={classes.header}>
+        <Container size="md" className={classes.inner}>
+          <AvatarLogo />
+          <Group gap={5} visibleFrom="xs">
+            {items}
+          </Group>
 
-        <Burger opened={opened} onClick={toggle} hiddenFrom="xs" size="sm" />
-      </Container>
-    </header>
+          <Burger
+            opened={opened}
+            onClick={handleBurgerClick}
+            hiddenFrom="xs"
+            size="sm"
+          />
+        </Container>
+      </header>
+    </>
   );
 }

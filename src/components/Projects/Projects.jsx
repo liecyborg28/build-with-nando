@@ -70,7 +70,7 @@ function CarouselCard({ name, desc, images, link }) {
 export function Projects() {
   return (
     <div id="projects" className={classes.projects}>
-      <h2 className={classes.projectsTitle}>My Projects</h2>
+      <h3 className={classes.projectsTitle}>My Projects</h3>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}

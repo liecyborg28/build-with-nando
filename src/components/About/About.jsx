@@ -12,9 +12,9 @@ function About() {
           size="xl"
           src="/about/avatar.jpg"
         />
-        <h2 className={classes.aboutTitle}>
+        <h3 className={classes.aboutTitle}>
           Fernando Lie | Fullstack Developer
-        </h2>
+        </h3>
         <p className={classes.aboutDesc}>
           I am a passionate and results-oriented Fullstack Developer with two
           years of hands-on experience in building full-stack web applications
