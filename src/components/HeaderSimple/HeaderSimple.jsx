@@ -43,7 +43,9 @@ export function HeaderSimple() {
       onClick={(event) => {
         // event.preventDefault();
         setActive(link.link);
-        toggle();
+        if (opened) {
+          toggle();
+        }
       }}>
       {link.label}
     </a>
