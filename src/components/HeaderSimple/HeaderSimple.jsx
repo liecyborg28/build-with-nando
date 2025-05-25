@@ -14,7 +14,7 @@ const links = [
   { link: "#about", label: "About" },
   { link: "#skills", label: "Skills" },
   { link: "#projects", label: "Projects" },
-  { link: "#contacts", label: "Contacts" },
+  { link: "#contact", label: "Contact" },
 ];
 
 function AvatarLogo() {

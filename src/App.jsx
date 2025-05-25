@@ -7,7 +7,7 @@ import { HeaderSimple } from "./components/HeaderSimple/HeaderSimple";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import { Projects } from "./components/Projects/Projects";
-import { Contacts } from "./components/Contacts/Contacts";
+import { Contact } from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Contacts />
+      <Contact />
     </div>
   );
 }

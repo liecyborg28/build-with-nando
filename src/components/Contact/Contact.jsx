@@ -5,7 +5,7 @@ import {
   IconBrandLinkedin,
 } from "@tabler/icons-react";
 import { Avatar, Group, Text } from "@mantine/core";
-import classes from "./Contacts.module.css";
+import classes from "./Contact.module.css";
 
 function UserInfoIcons() {
   const contacts = [
@@ -96,9 +96,9 @@ function UserInfoIcons() {
   );
 }
 
-export function Contacts() {
+export function Contact() {
   return (
-    <div className={classes.contacts} id="contacts">
+    <div className={classes.contacts} id="contact">
       <div className={classes.contactsContainer}>
         <UserInfoIcons />
       </div>
