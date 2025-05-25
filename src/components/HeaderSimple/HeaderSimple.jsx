@@ -53,8 +53,12 @@ export function HeaderSimple() {
 
   return (
     <>
-      <Drawer position="right" opened={opened} onClose={close}>
-        {items}
+      <Drawer
+        position="right"
+        opened={opened}
+        onClose={close}
+        withCloseButton={false}>
+        <div className={classes.drawer}>{items}</div>
       </Drawer>
       <header className={classes.header}>
         <Container size="md" className={classes.inner}>

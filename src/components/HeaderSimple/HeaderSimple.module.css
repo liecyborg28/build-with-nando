@@ -54,3 +54,7 @@
     margin-left: 8px;
     color: var(--mantine-color-gray-7);
 }
+
+.drawer {
+    padding-top: calc(56px + 8px);
+}
