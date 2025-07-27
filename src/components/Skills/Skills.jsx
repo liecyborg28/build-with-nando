@@ -47,10 +47,10 @@ const database = [
     name: "MongoDB",
     imageUrl: "/skills/MongoDB.png",
   },
-  //   {
-  //     name: "PostgresSQL",
-  //     imageUrl: "/skills/PostgresSQL.png",
-  //   },
+  {
+    name: "PostgresSQL",
+    imageUrl: "/skills/PostgresSQL.png",
+  },
 ];
 
 function Skill({ name, imageUrl }) {
