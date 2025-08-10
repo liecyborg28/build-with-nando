@@ -3,7 +3,7 @@
 }
 
 .name {
-    font-family: Outfit, var(--mantine-font-family);
+    color: var(--mantine-color-dark-4);
 }
 
 .contacts {
@@ -26,7 +26,7 @@
 }
 
 .contact {
-    color: var(--mantine-color-dark-4) !important;
+    color: var(--mantine-color-gray-7) !important;
 }
 
 .contact:hover {
