@@ -5,25 +5,25 @@ function About() {
   return (
     <div className={classes.aboutContainer} id="about">
       <div className={classes.aboutCard}>
-        <Avatar
+        <img
           className={`${classes.aboutAvatar}`}
-          variant="filled"
-          color="yellow"
-          size="xl"
-          src="/about/avatar.jpg"
+          src="./about/avatar.jpg"
+          alt="avatar"
         />
-        <h3 className={classes.aboutTitle}>
-          Fernando Lie | Fullstack Developer
-        </h3>
-        <p className={classes.aboutDesc}>
-          I am a passionate and results-oriented Fullstack Developer with two
-          years of hands-on experience in building full-stack web applications
-          using the MEAN and MERN stacks. With an academic background in
-          Information Systems, I bring a strong understanding of both technology
-          and business needs, enabling me to develop solutions that are not only
-          technically robust but also strategically aligned with user and
-          organizational goals.
-        </p>
+        <div className={classes.aboutTextContainer}>
+          <h1 className={classes.aboutTitle}>
+            Fernando Lie | Software Engineer
+          </h1>
+          <span className={classes.aboutDesc}>
+            I am a passionate and results-oriented Software Engineer with two
+            years of hands-on experience in building full-stack web applications
+            using the MEAN and MERN stacks. With an academic background in
+            Information Systems, I bring a strong understanding of both
+            technology and business needs, enabling me to develop solutions that
+            are not only technically robust but also strategically aligned with
+            user and organizational goals.
+          </span>
+        </div>
       </div>
     </div>
   );

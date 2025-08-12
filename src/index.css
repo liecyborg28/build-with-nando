@@ -9,39 +9,11 @@
     --mantine-color-blue-filled: #228be6;
     --mantine-color-white: #ffffff;
     --mantine-radius-sm: 4px;
+    --mantine-margin-sm: 1rem;
     --mantine-font-size-sm: 14px;
     --mantine-header-bg-color: rgba(255, 255, 255, 0.8);
+    --mantine-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 }
-
-/* :root[data-theme="dark"] {
-    --mantine-color-body: #1a1b1e;
-    --mantine-color-gray-3: #2c2e33;
-    --mantine-color-dark-4: #a6a7ab;
-    --mantine-color-gray-7: #ced4da;
-    --mantine-color-dark-0: #2e3035;
-    --mantine-color-gray-0: #212529;
-    --mantine-color-dark-6: #f1f3f5;
-    --mantine-color-blue-filled: #228be6;
-    --mantine-color-white: #000000;
-    --mantine-radius-sm: 4px;
-    --mantine-font-size-sm: 14px;
-    --mantine-header-bg-color: rgba(26, 27, 30, 0.8);
-}
-
-[data-mantine-color-scheme="dark"] {
-    --mantine-color-body: #1a1b1e;
-    --mantine-color-gray-3: #2c2e33;
-    --mantine-color-dark-4: #a6a7ab;
-    --mantine-color-gray-7: #ced4da;
-    --mantine-color-dark-0: #2e3035;
-    --mantine-color-gray-0: #212529;
-    --mantine-color-dark-6: #f1f3f5;
-    --mantine-color-blue-filled: #228be6;
-    --mantine-color-white: #000000;
-    --mantine-radius-sm: 4px;
-    --mantine-font-size-sm: 14px;
-    --mantine-header-bg-color: rgba(26, 27, 30, 0.8);
-} */
 
 * {
     font-family: "Ubuntu", sans-serif;

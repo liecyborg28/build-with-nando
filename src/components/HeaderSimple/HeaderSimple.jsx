@@ -21,7 +21,7 @@ function AvatarLogo() {
   return (
     <div className={classes.avatarContainer}>
       <Avatar variant="filled" color="yellow" src="favicon.ico" />
-      <b>Build With Nando</b>
+      <b>Build with Nando</b>
     </div>
   );
 }

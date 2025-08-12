@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const projects = [
   {
     name: "General POS",
-    desc: "General POS is a scalable Point of Sale system built with the MEAN Stack, designed to support modern business operations. It includes real-time analytics, multi-business and warehouse management, product variation handling, and secure transactions with Slack integration making it a flexible and powerful solution for growing businesses.",
+    desc: "General POS is a scalable Point of Sale system built with the MEAN Stack, designed to support modern business operations. It includes real-time analytics, multi-business and warehouse management, product variation handling, and secure transactions.",
     images: [
       "/projects/1/1.png",
       "/projects/1/2.png",
@@ -15,6 +15,7 @@ const projects = [
       "/projects/1/5.png",
     ],
     link: "https://general-pos-fe.vercel.app",
+    techs: ["MongoDB", "Express", "Angular", "NodeJS", "Bootstrap", "Primeng"],
   },
 ];
 
@@ -70,7 +71,7 @@ function CarouselCard({ name, desc, images, link }) {
 export function Projects() {
   return (
     <div id="projects" className={classes.projects}>
-      <h3 className={classes.projectsTitle}>My Projects</h3>
+      <h1 className={classes.projectsTitle}>My Projects</h1>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}

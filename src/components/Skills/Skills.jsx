@@ -66,25 +66,25 @@ function Skill({ name, imageUrl }) {
 function Skills() {
   return (
     <div className={classes.skillsContainer} id="skills">
-      <b className={classes.skillsTitle}>Basic</b>
+      <h2 className={classes.skillsTitle}>Basic</h2>
       <div className={classes.skillsCategory}>
         {basic.map((e, i) => (
           <Skill key={i} name={e.name} imageUrl={e.imageUrl} />
         ))}
       </div>
-      <b className={classes.skillsTitle}>Frontend</b>
+      <h2 className={classes.skillsTitle}>Frontend</h2>
       <div className={classes.skillsCategory}>
         {frontend.map((e, i) => (
           <Skill key={i} name={e.name} imageUrl={e.imageUrl} />
         ))}
       </div>
-      <b className={classes.skillsTitle}>Backend</b>
+      <h2 className={classes.skillsTitle}>Backend</h2>
       <div className={classes.skillsCategory}>
         {backend.map((e, i) => (
           <Skill key={i} name={e.name} imageUrl={e.imageUrl} />
         ))}
       </div>
-      <b className={classes.skillsTitle}>Database</b>
+      <h2 className={classes.skillsTitle}>Database</h2>
       <div className={classes.skillsCategory}>
         {database.map((e, i) => (
           <Skill key={i} name={e.name} imageUrl={e.imageUrl} />
