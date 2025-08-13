@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 70%;
+    width: 65%;
 }
 
 .aboutAvatar {
@@ -37,6 +37,7 @@
 }
 
 .aboutTitle {
+    margin-top: 0;
     color: var(--mantine-color-dark-4);
 }
 
@@ -59,10 +60,20 @@
     text-shadow: var(--mantine-shadow);
 }
 
-@media (max-width: 790px) {
+@media (max-width: 840px) {
+    .aboutAvatar {
+        width: 22%;
+    }
+
+    .aboutTextContainer {
+        width: 70%;
+    }
+}
+
+@media (max-width: 800px) {
     .aboutAvatar {
         width: 45%;
-        margin-bottom: var(--mantine-margin-sm);
+        margin-bottom: var(--mantine-margin-md);
     }
 
     .aboutCard {

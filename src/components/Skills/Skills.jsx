@@ -29,6 +29,10 @@ const frontend = [
     name: "React",
     imageUrl: "/skills/React.png",
   },
+  {
+    name: "Tailwind CSS",
+    imageUrl: "/skills/TailwindCSS.png",
+  },
 ];
 
 const backend = [

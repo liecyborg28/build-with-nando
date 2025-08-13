@@ -36,7 +36,7 @@ function UserInfoIcons() {
         <Avatar src="/about/avatar.jpg" size={94} radius="md" />
         <div>
           <Text fz="lg" fw={500} className={classes.name}>
-            Contact me:
+            Let's build something together:
           </Text>
 
           <Group wrap="nowrap" gap={10} mt={3}>
