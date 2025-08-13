@@ -4,56 +4,67 @@ import { Tooltip } from "@mantine/core";
 const basic = [
   {
     name: "HTML5",
-    imageUrl: "/skills/HTML5.png",
+    imageUrl:
+      "https://img.icons8.com/?size=100&id=owWiEaAJmGKK&format=png&color=000000",
   },
   {
     name: "CSS3",
-    imageUrl: "/skills/CSS3.png",
+    imageUrl:
+      "https://img.icons8.com/?size=100&id=4d9YPiN04osD&format=png&color=000000",
   },
   {
     name: "JavaScript",
-    imageUrl: "/skills/JavaScript.png",
+    imageUrl:
+      "https://img.icons8.com/?size=100&id=YX2eDFImIaWh&format=png&color=000000",
   },
   {
     name: "TypeScript",
-    imageUrl: "/skills/TypeScript.png",
+    imageUrl:
+      "https://img.icons8.com/?size=100&id=Xf1sHBmY73hA&format=png&color=000000",
   },
 ];
 
 const frontend = [
   {
     name: "Angular",
-    imageUrl: "/skills/Angular.png",
+    imageUrl:
+      "https://img.icons8.com/?size=100&id=6SWtW8hxZWSo&format=png&color=000000",
   },
   {
     name: "React",
-    imageUrl: "/skills/React.png",
+    imageUrl:
+      "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000",
   },
   {
     name: "Tailwind CSS",
-    imageUrl: "/skills/TailwindCSS.png",
+    imageUrl:
+      "https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000",
   },
 ];
 
 const backend = [
   {
     name: "Node.js",
-    imageUrl: "/skills/Node.js.png",
+    imageUrl:
+      "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
   },
   {
     name: "Express",
-    imageUrl: "/skills/Express.png",
+    imageUrl:
+      "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000",
   },
 ];
 
 const database = [
   {
     name: "MongoDB",
-    imageUrl: "/skills/MongoDB.png",
+    imageUrl:
+      "https://img.icons8.com/?size=100&id=8rKdRqZFLurS&format=png&color=000000",
   },
   {
     name: "PostgresSQL",
-    imageUrl: "/skills/PostgresSQL.png",
+    imageUrl:
+      "https://img.icons8.com/?size=100&id=JRnxU7ZWP4mi&format=png&color=000000",
   },
 ];
 
