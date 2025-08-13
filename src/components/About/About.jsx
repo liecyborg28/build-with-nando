@@ -12,10 +12,10 @@ function About() {
         />
         <div className={classes.aboutTextContainer}>
           <h1 className={classes.aboutTitle}>
-            Fernando Lie | Software Engineer
+            Fernando Lie | Fullstack Developer
           </h1>
           <span className={classes.aboutDesc}>
-            I am a passionate and results-oriented Software Engineer with two
+            I am a passionate and results-oriented Fullstack Developer with two
             years of hands-on experience in building full-stack web applications
             using the MEAN and MERN stacks. With an academic background in
             Information Systems, I bring a strong understanding of both
